@@ -17,7 +17,7 @@
 
 ```
 # Clone the repository
-$ git clone https://github.com/rosooares/next-list-products
+$ git clone https://github.com/rosooares/search-products
 
 # Install dependencies
 $ npm install
