@@ -15,7 +15,7 @@ const Items = ({ query, push }) => {
     });
   }, [query]);
 
-  if (Object.keys(items).length > 0) {
+  if (items?.results?.length > 0) {
     return (
       <div className={styles.content}>
         {items.results.map((item) => (
